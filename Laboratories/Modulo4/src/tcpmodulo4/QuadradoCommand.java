@@ -41,19 +41,7 @@ public class QuadradoCommand extends AbstractFormaGeometricaCommand {
 			return  SquareData;
 		}
 	
-/* Percebi que era problemático aplicar o programa  dessa forma , pois precisariam ser lidas 3 vezes do teclado, optei por mudar um pouco para ficar mais legivel
-	@Override
-	public double CalcArea() throws IOException {
-		Quadrado q = Instancia();
-		return q.GeArea();
-	}
 
-	@Override
-	public double CalcPerimeter() throws IOException {
-		Quadrado q = Instancia();
-		return q.GetPerimeter();
-	}
-	*/
 }
 
 	
