@@ -8,9 +8,6 @@ public abstract class AbstractFormaGeometricaCommand implements FormaGeometricaC
 	public abstract <T> T InstantiateGeometricForm() throws IOException;
 	public abstract double[] ReadGeometricFormData() throws IOException ;
 	
-//Métodos Problemáticos 
-//	public abstract double CalcArea() throws IOException ;
-//public abstract double CalcPerimeter() throws IOException ;
-	
+
 
 }
