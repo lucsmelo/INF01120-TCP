@@ -39,29 +39,12 @@ public class CirculoCommand extends AbstractFormaGeometricaCommand {
 		System.out.print(" Type the circle radius: ");
 		Double radius=Double.parseDouble(reader.readLine()); 
 		
-		/*
-		if(reader.readLine()==null)
-		{
-			throw new IllegalMeasurementException("Invalid Input (Input can not be null)"); 
-		}
-		*/
+	
 			double [] CircleData = {radius};
 			return CircleData;
 		
 	}
 	
-/* Percebi que era problemático aplicar o programa  dessa forma , pois precisariam ser lidas 3 vezes do teclado, optei por 
-	@Override
-	public double CalcArea() throws IOException {
-		Circulo c = Instancia();
-		return c.GetArea();
-	}
 
-	@Override
-	public double CalcPerimeter() throws IOException {
-		Circulo c = Instancia();
-		return c.GetPerimeter();
-		
-	}*/
 
 }
