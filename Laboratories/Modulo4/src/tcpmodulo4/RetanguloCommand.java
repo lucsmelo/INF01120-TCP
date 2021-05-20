@@ -44,24 +44,7 @@ public void Execute() throws IOException {
 			return RectangleData;
 	}
 
-/* Percebi que era problemático aplicar o programa  dessa forma , pois precisariam ser lidas 3 vezes do teclado, optei por mudar um pouco para ficar mais legivel
- * 
-	@Override
-	public double CalcArea() throws IOException {
-		// TODO Auto-generated method stub
-		Retangulo r = Instancia();
-		return r.GetArea();
-	}
 
-
-	@Override
-	public double CalcPerimeter() throws IOException {
-		// TODO Auto-generated method stub
-		Retangulo r = Instancia();
-		return r.GetPerimeter();
-		
-	}
-*/
 	
 
 }
